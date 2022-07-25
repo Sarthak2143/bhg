@@ -15,7 +15,7 @@ func main() {
                 // closed or filtered port
             }
             conn.Close()
-            fmt.Println("%d open", j)
+            fmt.Printf("%d open\n", j)
         }(i)
     }
 }
